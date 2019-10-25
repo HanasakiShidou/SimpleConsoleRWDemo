@@ -4,9 +4,8 @@
 
 #define msleep(mseconds) (usleep(mseconds * 1000))
 #define def_szSerialPortPath "/dev/ttyUSB0"
-//#define def_szSerialPortPath "/dev/pts/1"
-#define def_szFilepath "/home/hai/CLionProjects/simpleConsoleRW/badappledata.bin"
-//#define def_szFilepath "/home/hai/CLionProjects/simpleConsoleRW/test.bin"
+#define def_szFilepath "badappledata.bin"
+
 #define def_iBuffSize 704
 
 char gc_szFilePath[]=def_szFilepath;
